@@ -1,0 +1,7 @@
+function solution(string) {
+   if (/[A-Z]/.test(string)) {
+    var newstr = string.replace(/([A-Z])/g, ' $1')
+    return newstr
+    }
+  else { return string}
+}
